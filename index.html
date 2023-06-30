@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&family=Poppins:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link type="image/x-icon" href="images/icon.ico" rel="shortcut icon" />
+    <link rel="stylesheet" href="CSS/index.css" />
+    <title>Laser.rs</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="static-header"></div>
+      <header class="header">
+        <div class="container-nav">
+          <nav class="nav">
+            <ul class="set-info">
+              <li class="item-info item-info-lang">
+                <a class="item-info-link-img" href="#">
+                  <img
+                    class="logo"
+                    src="images/logo-removebg-preview.svg"
+                    alt="logo"
+                  />
+                </a>
+              </li>
+              <li class="item-info">
+                <a class="item-info-link lang" href="price.html" key="price"
+                  >Price</a
+                >
+              </li>
+              <li class="item-info">
+                <a
+                  class="item-info-link lang"
+                  href="complexes.html"
+                  key="discount"
+                  >Complexes</a
+                >
+              </li>
+              <li class="item-info">
+                <a
+                  class="item-info-link lang"
+                  href="info&rules.html"
+                  key="infoAndRules"
+                  >Info&Rules</a
+                >
+              </li>
+              <li class="item-info">
+                <a
+                  class="item-info-link-img"
+                  href="https://www.instagram.com/laser.rs/"
+                  target="_blank"
+                  ><img
+                    class="icon-inst"
+                    src="images/instagram-icon.png"
+                    alt="icon-inst"
+                /></a>
+              </li>
+            </ul>
+
+            <ul class="set-info-mobile">
+              <li class="dropdown">
+                <button onclick="firstFunction()" class="dropbtn"></button>
+                <div id="dropdown-js" class="dropdown-content">
+                  <a
+                    class="item-info-link-mobile lang"
+                    href="price.html"
+                    key="price"
+                    >Price</a
+                  >
+                  <a
+                    class="item-info-link-mobile lang"
+                    href="complexes.html"
+                    key="discount"
+                    >Complexes</a
+                  >
+                  <a
+                    class="item-info-link-mobile lang"
+                    href="info&rules.html"
+                    key="infoAndRules"
+                    >Info&Rules</a
+                  >
+                </div>
+              </li>
+              <li class="item-info-mobile">
+                <a class="item-info-link-img-mobile" href="#">
+                  <img
+                    class="logo-mobile"
+                    src="images/logo-removebg-preview.svg"
+                    alt="logo"
+                  />
+                </a>
+                <a
+                  class="item-info-link-img-mobile"
+                  href="https://www.instagram.com/laser.rs/"
+                  target="_blank"
+                  ><img
+                    class="icon-inst-mobile"
+                    src="images/instagram-icon.png"
+                    alt="icon-inst"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="laser-hair-removal">
+          <div class="container" id="container">
+            <button id="en" class="translate">
+              <img src="images/flag-uk.jpg" alt="UK" /> ENG
+            </button>
+            <button id="rs" class="translate">
+              <img src="images/flag-rs.png" alt="RS" /> SRB
+            </button>
+            <button id="ru" class="translate">
+              <img src="images/flag-ru.png" alt="RU" /> RUS
+            </button>
+
+            <p class="core-logo-p">
+              <img
+                class="core-logo"
+                src="images/logo-removebg-preview.svg"
+                alt=""
+              />
+            </p>
+            <h1 class="title lang" key="coreTitle" id="1">
+              laser hair removal
+            </h1>
+            <p class="lazer-rs-is lang" key="lazerRsIs">
+              "Lazer.rs" - is the undisputed leader in the field of laser hair
+              removal in Serbia. Specializing in advanced technologies and
+              leading methods, the company offers state-of-the-art hair removal
+              procedures, ensuring maximum effectiveness and comfort for its
+              clients
+            </p>
+            <ul class="contacts-set">
+              <li class="contacts-item">
+                <a
+                  href="https://www.instagram.com/laser.rs/"
+                  target="_blank"
+                  class="contacts-text"
+                >
+                  <p class="contacts-link lang" key="appointment">
+                    Make an appointment
+                  </p>
+                  <p>
+                    <img class="contacts-img" src="images/pen.png" alt="Pen" />
+                  </p>
+                </a>
+              </li>
+              <li class="contacts-item">
+                <a href="tel:" id="text-phone">123 1231 123</a>
+              </li>
+              <li class="contacts-item" id="item-link-img-phone-1251">
+                <a href="tel:" class="contact-link">
+                  <img
+                    class="contacts-img"
+                    id="contacts-img-phone"
+                    src="images/phone3.png"
+                    alt="Phone"
+                /></a>
+              </li>
+            </ul>
+
+            <ul class="contacts-set-mobile">
+              <li class="contacts-item">
+                <a
+                  href="https://www.instagram.com/laser.rs/"
+                  target="_blank"
+                  class="contacts-text"
+                >
+                  <p class="contacts-link lang" key="appointment">
+                    Make an appointment
+                  </p>
+                  <p>
+                    <img class="contacts-img" src="images/pen.png" alt="Pen" />
+                  </p>
+                </a>
+              </li>
+              <li class="contacts-item">
+                <a href="tel:" class="contact-link">
+                  <img
+                    class="contacts-img"
+                    id="contacts-img-phone"
+                    src="images/phone3.png"
+                    alt="Phone"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="peoples-choose">
+          <div class="container">
+            <h2 class="lang" key="choose">why people choose us?</h2>
+          </div>
+          <div class="container">
+            <ul class="about-us">
+              <li class="lazer-text">
+                <h3 class="laser-name lang" key="laserName">
+                  Hair removal laser FG2000-D+
+                </h3>
+                <div class="lazer-description">
+                  <p class="lang" key="lazerDescription1">
+                    - Removes all types of hair, regardless of their shade and
+                    stiffness
+                  </p>
+                  <p class="lang" key="lazerDescription2">
+                    - Does not cause severe pain
+                  </p>
+                  <p class="lang" key="lazerDescription3">
+                    - Acts only on melanin, does not damage neighboring tissues
+                  </p>
+                </div>
+              </li>
+              <li class="lazer-img">
+                <img src="images/lazer.png" alt="Lazer" />
+              </li>
+              <!-- mobile-version-element -->
+              <li>
+                <div class="lazer-description-mobile">
+                  <p class="lang" key="lazerDescription1">
+                    - Removes all types of hair, regardless of their shade and
+                    stiffness
+                  </p>
+                  <p class="lang" key="lazerDescription2">
+                    - Does not cause severe pain
+                  </p>
+                  <p class="lang" key="lazerDescription3">
+                    - Acts only on melanin, does not damage neighboring tissues
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <hr />
+
+            <ul class="about-us">
+              <li class="lazer-text">
+                <h3 class="laser-name lang" key="masters">Masters</h3>
+                <div class="lazer-description">
+                  <p class="lang" key="masterBenefits1">
+                    - Have a medical education
+                  </p>
+                  <p class="lang" key="masterBenefits2">
+                    - Work individually with each client, choosing the right
+                    approach
+                  </p>
+                  <p class="lang" key="masterBenefits3">
+                    - They are open and friendly to make the procedure even more
+                    comfortable for you
+                  </p>
+                </div>
+              </li>
+              <li class="master-img-address">
+                <img src="images/master.png" alt="" />
+              </li>
+              <!-- mobile-version-element -->
+              <li>
+                <div class="lazer-description-mobile">
+                  <p class="lang" key="masterBenefits1">
+                    - Have a medical education
+                  </p>
+                  <p class="lang" key="masterBenefits2">
+                    - Work individually with each client, choosing the right
+                    approach
+                  </p>
+                  <p class="lang" key="masterBenefits3">
+                    - They are open and friendly to make the procedure even more
+                    comfortable for you
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <hr />
+
+            <ul class="about-us">
+              <li class="lazer-text">
+                <h3 class="laser-name lang" key="ourStudio">Studio</h3>
+                <div class="lazer-description">
+                  <p class="lang" key="studioBenefits1">
+                    - In our studio, everything is thought out to the smallest
+                    detail
+                  </p>
+                  <p class="lang" key="studioBenefits2">
+                    - Upon arrival, we always offer coffee, tea, or water
+                  </p>
+                  <p class="lang" key="studioBenefits3">
+                    - In the restroom, you will always find everything you need
+                  </p>
+                </div>
+              </li>
+              <li class="lazer-img-address">
+                <video
+                  id="video"
+                  autoplay
+                  muted
+                  loop
+                  src="videos/video.MP4"
+                ></video>
+              </li>
+              <!-- mobile-version-element -->
+              <li>
+                <div class="lazer-description-mobile">
+                  <p class="lang" key="studioBenefits1">
+                    - In our studio, everything is thought out to the smallest
+                    detail
+                  </p>
+                  <p class="lang" key="studioBenefits2">
+                    - Upon arrival, we always offer coffee, tea, or water
+                  </p>
+                  <p class="lang" key="studioBenefits3">
+                    - In the restroom, you will always find everything you need
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <hr />
+
+            <ul class="about-us">
+              <li class="lazer-text">
+                <h3 class="laser-name lang" key="nameLocation">
+                  Very convenient location
+                </h3>
+                <div class="lazer-description">
+                  <a
+                    class="adress-people's=choose lang"
+                    key="nameAddress"
+                    href="https://www.google.com/maps/place/Vladimira+Karic%CC%81a+3,+Beograd+11118/@44.792845,20.4800818,
+                    17z/data=!3m1!4b1!4m6!3m5!1s0x475a707af3067439:0x90d1b
+                    807e6670cf0!8m2!3d44.7928412!4d20.4826567!16s%2Fg%2F11kx2p7kh0?hl=en&entry=ttu"
+                    target="_blank"
+                    >Vladimira Karića 3, Beograd 11118</a
+                  >
+                </div>
+              </li>
+              <li class="lazer-img-address">
+                <img src="images/address-pin.png" alt="" />
+              </li>
+              <!-- mobile-version-element -->
+              <li>
+                <div class="lazer-description-mobile">
+                  <a
+                    class="adress-people's=choose lang"
+                    key="nameAddress"
+                    href="https://www.google.com/maps/place/Vladimira+Karic%CC%81a+3,+Beograd+11118/@44.792845,20.4800818,
+                    17z/data=!3m1!4b1!4m6!3m5!1s0x475a707af3067439:0x90d1b
+                    807e6670cf0!8m2!3d44.7928412!4d20.4826567!16s%2Fg%2F11kx2p7kh0?hl=en&entry=ttu"
+                    target="_blank"
+                    >Vladimira Karića 3, Beograd 11118</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="pointer">
+          <ul class="pointer-set">
+            <li class="pointer-item">
+              <a class="pointer-link" href="#1">
+                <img class="pointer-img" src="images/pointer.png" alt="" />
+              </a>
+            </li>
+            <li>
+              <p class="text-pointer lang" key="pointerUp">Get it</p>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+    <footer class="footer">
+      <div class="container-nav">
+        <ul class="footer-set">
+          <li class="footer-item">
+            <a class="lang" key="footerPhone" href="tel:"
+              >Phone: 123 1231 123</a
+            >
+          </li>
+          <li class="item-info">
+            <a
+              class="item-info-link-img"
+              href="https://www.instagram.com/laser.rs/"
+              target="_blank"
+              ><img
+                class="icon-inst"
+                src="images/instagram-icon.png"
+                alt="icon-inst"
+            /></a>
+
+            <a class="item-info-link-img" href="#">
+              <img
+                class="logo"
+                src="images/logo-removebg-preview.svg"
+                alt="logo"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
